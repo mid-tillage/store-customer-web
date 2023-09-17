@@ -5,7 +5,7 @@
                 aria-label="Example icon-button with menu icon">
                 <mat-icon>menu</mat-icon>
             </button>
-            <span>My App</span>
+            <span>Store customer web</span>
             <span class="example-spacer"></span>
             <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
                 <mat-icon>favorite</mat-icon>
@@ -20,22 +20,12 @@
             <a routerLink="/auth/logout" routerLinkActive="active" ariaCurrentWhenActive="page">Logout</a>
             <a routerLink="/eshop/menu" routerLinkActive="active" ariaCurrentWhenActive="page">Menu</a>
             <a routerLink="/eshop/product-list" routerLinkActive="active" ariaCurrentWhenActive="page">Products</a>
-            <a routerLink="/eshop/product-detail" routerLinkActive="active" ariaCurrentWhenActive="page">Product
-                Detail</a>
+            <a routerLink="/eshop/product-detail" routerLinkActive="active" ariaCurrentWhenActive="page">Product Detail</a>
             <a routerLink="/eshop/promos" routerLinkActive="active" ariaCurrentWhenActive="page">Promos</a>
-            <a routerLink="/shopping-cart/product-list-info" routerLinkActive="active"
-                ariaCurrentWhenActive="page">Product
-                List
-                Info</a>
-            <a routerLink="/shopping-cart/contact-info" routerLinkActive="active" ariaCurrentWhenActive="page">Contact
-                Info
-                Page</a>
-            <a routerLink="/shopping-cart/delivery-info" routerLinkActive="active" ariaCurrentWhenActive="page">Delivery
-                Info
-                Page</a>
-            <a routerLink="/shopping-cart/payment-info" routerLinkActive="active" ariaCurrentWhenActive="page">Payment
-                Info
-                Page</a>
+            <a routerLink="/shopping-cart/product-list-info" routerLinkActive="active" ariaCurrentWhenActive="page">Product List Info</a>
+            <a routerLink="/shopping-cart/contact-info" routerLinkActive="active" ariaCurrentWhenActive="page">Contact Info Page</a>
+            <a routerLink="/shopping-cart/delivery-info" routerLinkActive="active" ariaCurrentWhenActive="page">Delivery Info  Page</a>
+            <a routerLink="/shopping-cart/payment-info" routerLinkActive="active" ariaCurrentWhenActive="page">Payment Info Page</a>
         </nav>
         <router-outlet></router-outlet>
     </mat-drawer-content>
@@ -46,15 +36,15 @@
             <!-- <a mat-list-item href="../products/products.component.html" *ngFor="let link of catalogs" [activated]="link.isActive">{{ link }}</a> -->
             <!-- <a mat-list-item href="../products/products.component.html" *ngFor="let link of catalogs" [activated]="link.isActive">{{ link }}</a> -->
             <!-- <a mat-list-item *ngFor="let link of catalogs" href="{{link.href}}">{{ link.name }}</a> -->
-            <a mat-list-item routerLink="/eshop/product-list" routerLinkActive="active">juegos</a>
+            <a mat-list-item routerLink="/eshop/product-list" routerLinkActive="active">product list</a>
             <a mat-list-item routerLink="/eshop/product-list" routerLinkActive="active">placeholder</a>
             <a mat-list-item routerLink="/eshop/product-list" routerLinkActive="active">placeholder</a>
 
         </mat-nav-list>
-        <p>Auto-resizing sidenav</p>
+        <!-- <p>Auto-resizing sidenav</p>
         <p *ngIf="showFiller">Lorem, ipsum dolor sit amet consectetur.</p>
         <button (click)="showFiller = !showFiller" mat-raised-button>
             Toggle extra text
-        </button>
+        </button> -->
     </mat-drawer>
 </mat-drawer-container>
