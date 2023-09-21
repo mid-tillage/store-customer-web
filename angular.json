@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "tienda-juegos-web": {
+    "store-customer-web": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/tienda-juegos-web",
+            "outputPath": "dist/store-customer-web",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -61,10 +61,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "tienda-juegos-web:build:production"
+              "browserTarget": "store-customer-web:build:production"
             },
             "development": {
-              "browserTarget": "tienda-juegos-web:build:development"
+              "browserTarget": "store-customer-web:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -72,7 +72,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "tienda-juegos-web:build"
+            "browserTarget": "store-customer-web:build"
           }
         },
         "test": {

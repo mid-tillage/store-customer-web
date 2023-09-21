@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'tienda-juegos-web';
+  title = 'store-customer-web';
   showFiller = false;
 }
